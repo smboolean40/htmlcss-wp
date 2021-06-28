@@ -1,0 +1,83 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Common */
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.container {
+	width: 80%;
+	margin: auto;
+}
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/* Header */
+header {
+	background-color: #e579e6;
+	height: 150px;
+	margin: 20px 0;
+}
+
+/* Main */
+.hero {
+	background-color: #e1d67a;
+	height: 600px;
+	margin-bottom: 20px;
+}
+
+.leadership {
+	background-color: #0086ff;
+}
+.leadership-title {
+	background-color: #abcfe7;
+	height: 80px;
+}
+
+.row {
+	padding: 20px 0;
+}
+.col-left, .col-center, .col-right {
+	float: left;
+	background-color: #abcfe7;
+	border: 1px solid black;
+}
+.col-left, .col-right {
+	width: 20%;
+}
+.col-center {
+	width: calc(60% - 40px);
+	margin: 0 20px;
+	font-weight: 300;
+}
+
+/* Footer */
+footer {
+	background-color: #8801fe;
+	height: 80px;
+	margin: 10px 0 20px 0;
+}
+
+.test {
+	position: relative;
+	height: 300px;
+	width: 300px;
+	background-image: url('../img/img-1.jpg');
+	border-radius: 10px;
+	overflow: hidden;
+}
+.overlay {
+	background-color: rgba(0,0,0,0.2);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
