@@ -21,9 +21,34 @@ body {
 
 /* Header */
 header {
-	background-color: #e579e6;
-	height: 150px;
-	margin: 20px 0;
+	/* background-color: #e579e6;
+	height: 150px; */
+	margin: 30px 0;
+}
+
+.logo img {
+	height: 70px;
+	padding-right: 20px;
+	border-right: 1px solid #e5e5e5;
+}
+
+/* Nav */
+.main-menu {
+	margin-top: 30px;
+}
+.main-menu ul {
+	list-style: none;
+}
+.main-menu li {
+	display: inline-block;
+	margin-right: 15px;
+}
+.main-menu li:last-child {
+	margin-right: 0px;
+}
+.main-menu li a {
+	text-decoration: none;
+	color: #8A8A8A;
 }
 
 /* Main */
