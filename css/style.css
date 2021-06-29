@@ -20,6 +20,11 @@ body {
 	display: table;
 	clear: both;
 }
+.image-cover {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
 
 /* Typo */
 h2 {
@@ -70,14 +75,15 @@ header {
 /* Main */
 .hero {
 	position: relative;
-	background-image: url('../img/banner.jpg');
+	/* background-image: url('../img/banner.jpg');
 	background-size: cover;
-    background-position: center;
+    background-position: center; */
 	height: 600px;
 	margin-bottom: 20px;
 	border-radius: 10px;
 	overflow: hidden;
 }
+
 .hero-text {
 	position: absolute;
 	width: 50%;
@@ -112,18 +118,8 @@ header {
 	height: 240px;
 	border-radius: 10px;
 	overflow: hidden;
-	background-size: cover;
-    background-position: center;
-}
-
-#tizia {
-	background-image: url('../img/img-1.jpg');
-}
-#tizio {
-	background-image: url('../img/banner-2.jpg');
-}
-#gente {
-	background-image: url('../img/img-3.jpg');
+	/* background-size: cover;
+    background-position: center; */
 }
 
 /* Footer */
