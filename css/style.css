@@ -8,6 +8,7 @@
 /* Common */
 body {
 	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
 }
 .container {
 	width: 80%;
@@ -17,6 +18,12 @@ body {
 	content: '';
 	display: table;
 	clear: both;
+}
+
+/* Typo */
+h3 {
+	font-size: 30px;
+	font-weight: 400;
 }
 
 /* Header */
@@ -53,9 +60,21 @@ header {
 
 /* Main */
 .hero {
-	background-color: #e1d67a;
+	position: relative;
+	background-image: url('../img/banner.jpg');
+	background-size: cover;
+    background-position: center;
 	height: 600px;
 	margin-bottom: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.hero-text {
+	position: absolute;
+	width: 50%;
+	left: 50px;
+	bottom: 70px;
+	color: #fff;
 }
 
 .leadership {
