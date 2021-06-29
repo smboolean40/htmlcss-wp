@@ -74,7 +74,6 @@ header {
 
 /* Main */
 .hero {
-	position: relative;
 	/* background-image: url('../img/banner.jpg');
 	background-size: cover;
     background-position: center; */
@@ -114,7 +113,6 @@ header {
 }
 
 .col-img {
-	position: relative;
 	height: 240px;
 	border-radius: 10px;
 	overflow: hidden;
@@ -133,15 +131,12 @@ footer span {
 	font-size: 28px;
 }
 
-.test {
-	position: relative;
-	height: 300px;
-	width: 300px;
-	background-image: url('../img/img-1.jpg');
-	border-radius: 10px;
-	overflow: hidden;
-}
 .overlay {
+	position: relative;
+}
+.overlay::before {
+	content: '';
+	display: block;
 	background-color: rgba(0,0,0,0.2);
 	position: absolute;
 	top: 0;
